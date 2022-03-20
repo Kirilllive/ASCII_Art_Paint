@@ -7,9 +7,9 @@ Decorate your text and surprise your readers with an original social media post 
 The tool does not require an internet connection and can work offline in a browser.
 
 
-> play online: https://kirilllive.github.io/tuesday-js/tuesday_visual.html
+> play online: https://kirilllive.github.io/tuesday-js/tools/ascii_paint.html 
 
-> itch.io: https://kirill-live.itch.io/tuesday-js
+> itch.io: https://kirill-live.itch.io
 
 > Twitter: https://twitter.com/TuesdayJS_vn
 
