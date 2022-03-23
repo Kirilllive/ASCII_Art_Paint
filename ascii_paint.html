@@ -627,7 +627,7 @@ function show_img(){
     img_show.checked=true;
 }
 function delete_img(){img_preview.style.display="none";frame.style.backgroundImage="none";}
-function addChar(d,c){var r=window_zone.getElementsByClassName('palette_simbols')[0];if(d){r.value+=c}else{r.value=r.value.replace(new RegExp(c,'g'),"")}}
+function addChar(d,c){var r=window_zone.getElementsByClassName('palette_simbols')[0];if(d){var i=r.selectionStart;r.value=r.value.substring(0, i)+c+r.value.substring(i);r.selectionStart=i+1;}else{r.value=r.value.replace(new RegExp(c,'g'),"")}}
 function applyChar(){
     range_font=[window_zone.getElementsByClassName('range')[0].value,window_zone.getElementsByClassName('range')[1].value];
     palette=window_zone.getElementsByClassName('palette_simbols')[0].value;
