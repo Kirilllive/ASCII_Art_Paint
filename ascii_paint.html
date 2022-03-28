@@ -274,8 +274,9 @@ body{height:100vh;width:100vw;}
             <tr><td onmousedown="save_art(false)" style="border-radius:8px 8px 0 0;">Copy</td></tr>
             <tr><td onmousedown="paste_data(targetcell[0],targetcell[1],true)">Paste</td></tr>
             <tr><td onmousedown="delete_data()">Delete</td></tr>
-            <tr><td onmousedown="save_art(false);delete_data()">Cut</td></tr>
             <tr><td onmousedown="crop_cells()" style="border-radius:0 0 8px 8px;">Crop</td></tr>
+            <tr><td onmousedown="save_art(false);delete_data()">Cut</td></tr>
+            <tr><td onmousedown="modal_window(true,'text_edit');save_art(false)" style="border-radius:0 0 8px 8px;">Text</td></tr>
             </tbody>
         </table>
     </div>
@@ -422,7 +423,7 @@ body{height:100vh;width:100vw;}
         <div class="window_title">Text input</div>
         <div class='window_close icon icon_close' onclick='modal_window(false)'></div>
         <textarea class="edittext"></textarea>
-        <div class="button" style="margin:14px;" onclick="db=window_zone.getElementsByClassName('edittext')[0].value.split('\n');buildWorld();modal_window(false);state_save();">Apply</div>
+        <div class="button" style="margin:14px;" onclick="text_apply();">Apply</div>
     </div>
 </div>
 <div id='palette_edit' style="display:none">
@@ -537,6 +538,13 @@ function del_cells(u,s){
         td=tr[t+y].getElementsByTagName('td');
         for(x=l;x<td.length-r;x++){db[y]+=td[x].textContent};
     };buildWorld();state_save();
+}
+function text_apply(){
+    if(selected[1]!=selected[3]||selected[0]!=selected[2]){
+        var dbs=window_zone.getElementsByClassName('edittext')[0].value.split('\n');
+        for(var y=selected[1];y<selected[3]+1;y++){if(dbs[y-selected[1]]){db[y]=db[y].substr(0,selected[0])+dbs[y-selected[1]].substr(0,selected[2]-selected[0]+1)+db[y].substr(selected[2],db[y].length)}}
+    }else{db=window_zone.getElementsByClassName('edittext')[0].value.split('\n');}
+    buildWorld();modal_window(false);state_save();
 }
 function buildWorld(){
     var x,y,w=0;
