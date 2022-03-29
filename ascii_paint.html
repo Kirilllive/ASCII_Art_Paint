@@ -669,10 +669,10 @@ function get_selected(){
 function save_art(c){
     var text="";
     tr=canvas.getElementsByTagName('tr');
-    if(!get_selected()){x1=0;x2=tr[0].getElementsByTagName('td').length-1;y1=0;y2=tr.length;}else{x2++;y2++;}
+    if(!get_selected()){x1=0;x2=tr[0].getElementsByTagName('td').length-1;y1=0;y2=tr.length;}else{y2++;}
     for(y=y1;y<y2;y++){
         td=tr[y].getElementsByTagName('td');
-        for(x=x1;x<x2;x++){if(td[x]){text+=td[x].textContent}};
+        for(x=x1;x<x2+1;x++){if(td[x]){text+=td[x].textContent}};
         if(y<y2-1){text+="\n";}
     }
     if(c){
