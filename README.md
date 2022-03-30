@@ -42,8 +42,8 @@ If you open a bitmap in the editor, it will be displayed on the background of th
 
 # Customizable symbol palette / シンボル・パレットの設定
 
-Using the built-in character table, you can get all the available characters of a font in the selected range and use them to create your own character palette.
-You can specify a character to draw without using the palette, but using the keyboard, including using keyboard shortcuts for special characters.
+Using the built-in symbol table, you can get all the available symbols of a font in the selected range and use them to create your own symbol palette.
+You can specify a symbol to draw without using the palette, but using the keyboard, including using keyboard shortcuts for special symbols.
 
 「シンボル・パレットSymbol Palette」の設定画面(画面右上)で任意の文字コード範囲を指定すると、指定した範囲の文字が一覧表示されます。
 ここで選択した文字は作業用の「シンボル・パレット」に加わるので、目的に適したパレットを作ってみましょう。直接キーボードで入力することもできます。
@@ -65,7 +65,7 @@ Thus, you have complete control over the conversion process to get the most suit
 # Dark & light interface theme / ダーク版とライト版のインターフェイス
 
 You can easily and quickly switch between dark and light user interfaces themes. 
-this feature will show you how images will look on a dark background with light characters or a light background with dark characters.
+this feature will show you how images will look on a dark background with light symbols or a light background with dark symbols.
 
 ボタン一つでインターフェイスのダーク版(暗い背景)と、ライト版(明るい背景)とを切り替えることができるので、作成した絵が明度の異なる背景でどう映るかを即座に確認できます。画面左上に並ぶボタンの一番右です。
 
