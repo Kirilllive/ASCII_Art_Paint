@@ -6,9 +6,9 @@ free and open-source web-based application for creating and editing images consi
 Decorate your text and surprise your readers with an original social media post or blog post using ASCII graphics.
 The tool does not require an internet connection and can work offline in a browser.
 
-ASCII Art Paintは、ウェブブラウザで動作するオープンソースのASCII Graphics(*)制作ソフトです。ソーシャルメディアやブログの投稿を文字と記号で作った絵で装飾すれば、投稿が目に入った人たちの印象に残ること間違いなしです！ インターネット接続無しは不要。オフラインモードのブラウザで動作するので気軽に使用できます。
+ASCII Art Paintは、ウェブブラウザで動作するオープンソースのASCII Graphics 制作ソフトです。ソーシャルメディアやブログの投稿を文字と記号で作った絵で装飾すれば、投稿が目に入った人たちの印象に残ること間違いなしです！ インターネット接続無しは不要。オフラインモードのブラウザで動作するので気軽に使用できます。
 
-* 文字や記号を組み合わせて絵のようにしたテキスト。意味は日本語の「アスキーアート(AA)」と近似していますが、アスキーアートが平仮名、片仮名、漢字、ラテン語アルファベットは勿論、その他の言語の文字や特殊文字まで用いるのに比べ、「ASCII Graphics」で使用する文字の種類は少なく、表現が乏しいものです。ただ、このソフトウェアはUnicode文字を一通り扱えるので、アスキーアートのような複雑な絵も制作できます。
+ASCII Graphics 文字や記号を組み合わせて絵のようにしたテキスト。意味は日本語の「アスキーアート(AA)」と近似していますが、アスキーアートが平仮名、片仮名、漢字、ラテン語アルファベットは勿論、その他の言語の文字や特殊文字まで用いるのに比べ、「ASCII Graphics」で使用する文字の種類は少なく、表現が乏しいものです。ただ、このソフトウェアはUnicode文字を一通り扱えるので、アスキーアートのような複雑な絵も制作できます。
 
 > play online: https://kirilllive.github.io/tuesday-js/tools/ascii_paint.html 
 
