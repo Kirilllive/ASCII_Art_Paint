@@ -16,6 +16,9 @@ ASCII Graphics 文字や記号を組み合わせて絵のようにしたテキ�
 
 > Twitter: https://twitter.com/TuesdayJS_vn
 
+> [Japanes translation and adaptation by Onigi ](https://twitter.com/onigi123)
+
+
 [![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/tuesday_js)
 
 
