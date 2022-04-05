@@ -45,7 +45,8 @@ If you open a bitmap in the editor, it will be displayed on the background of th
 # Customizable symbol palette / シンボル・パレットの設定
 
 Using the built-in symbol table, you can get all the available symbols of a font in the selected range and use them to create your own symbol palette.
-You can specify a symbol to draw without using the palette, but using the keyboard, including using keyboard shortcuts for special symbols.
+You can specify a symbol to draw without using the palette, but using the keyboard, including using keyboard shortcuts for special symbols. Optionally, you can load multiple fonts from .ttf, .woff and .woff2 files and use them instead of the default font.
+
 
 「シンボル・パレットSymbol Palette」の設定画面(画面右上)で任意の文字コード範囲を指定すると、指定した範囲の文字が一覧表示されます。
 ここで選択した文字は作業用の「シンボル・パレット」に加わるので、目的に適したパレットを作ってみましょう。直接キーボードで入力することもできます。
