@@ -1,5 +1,3 @@
-![Tuesday JS scene editor](screenshots/ascii_art_paint.png)
-
 # ASCII Art Paint
 
 free and open-source web-based application for creating and editing images consisting of text characters and hieroglyphs (ASCII graphics / Shift_JIS art / Kaomoji and many others).
