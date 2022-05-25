@@ -28,7 +28,7 @@ You can use drag and drop to open a file. The usual txt file format is used to l
 機能と操作は一般的なグラフィック・エディターと同じなので、操作にはすぐ慣れるはずです。
 ファイルの読み込みはドラッグ・アンド・ドロップ。作業データは汎用テキストファイルとして保存するので、このソフトウェアで作成したファイルを他のテキスト・エディターで編集することも、他のエディタ―で作成したファイルを読み込むことも差し障りなく行えます。
 
-![Tuesday JS scene editor](screenshots/ascii_art_paint.png)
+![Tuesday JS scene editor](screenshots/copy_past.png)
 
 
 # Adapting bitmaps / ビットマップ画像の読み込み
