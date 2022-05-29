@@ -17,7 +17,7 @@ ASCII Graphics 文字や記号を組み合わせて絵のようにしたテキ�
 > [Japanes translation and adaptation by Onigi ](https://twitter.com/onigi123)
 
 
-[![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/tuesday_js)
+[![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/tuesday_street)
 
 
 # Simple interface / 簡潔で覚えやすいインターフェイス
@@ -85,4 +85,4 @@ In addition this feature will allow you to quickly add data to the editor and co
 
 
 
-[![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/tuesday_js)
+[![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/tuesday_street)
