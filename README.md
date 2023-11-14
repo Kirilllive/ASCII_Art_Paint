@@ -8,7 +8,7 @@ ASCII Art Paintは、ウェブブラウザで動作するオープンソース�
 
 ASCII Graphics 文字や記号を組み合わせて絵のようにしたテキスト。意味は日本語の「アスキーアート(AA)」と近似していますが、アスキーアートが平仮名、片仮名、漢字、ラテン語アルファベットは勿論、その他の言語の文字や特殊文字まで用いるのに比べ、「ASCII Graphics」で使用する文字の種類は少なく、表現が乏しいものです。ただ、このソフトウェアはUnicode文字を一通り扱えるので、アスキーアートのような複雑な絵も制作できます。
 
-> play online: https://kirilllive.github.io/tuesday-js/tools/ascii_paint.html 
+> play online: https://kirilllive.github.io/tuesday-js/tools/ascii_paint.html
 
 > itch.io: https://kirill-live.itch.io
 
@@ -16,9 +16,7 @@ ASCII Graphics 文字や記号を組み合わせて絵のようにしたテキ�
 
 > [Japanes translation and adaptation by Onigi ](https://twitter.com/onigi123)
 
-
 [![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/tuesday_street)
-
 
 # Simple interface / 簡潔で覚えやすいインターフェイス
 
@@ -30,7 +28,6 @@ You can use drag and drop to open a file. The usual txt file format is used to l
 
 ![Tuesday JS scene editor](screenshots/copy_past.png)
 
-
 # Adapting bitmaps / ビットマップ画像の読み込み
 
 If you open a bitmap in the editor, it will be displayed on the background of the canvas and can be used as a template or example to redraw the image into text symbols.
@@ -39,18 +36,15 @@ If you open a bitmap in the editor, it will be displayed on the background of th
 
 ![Tuesday JS scene editor](screenshots/stroke.png)
 
-
 # Customizable symbol palette / シンボル・パレットの設定
 
 Using the built-in symbol table, you can get all the available symbols of a font in the selected range and use them to create your own symbol palette.
 You can specify a symbol to draw without using the palette, but using the keyboard, including using keyboard shortcuts for special symbols. Optionally, you can load multiple fonts from .ttf, .woff and .woff2 files and use them instead of the default font.
 
-
 「シンボル・パレットSymbol Palette」の設定画面(画面右上)で任意の文字コード範囲を指定すると、指定した範囲の文字が一覧表示されます。
 ここで選択した文字は作業用の「シンボル・パレット」に加わるので、目的に適したパレットを作ってみましょう。直接キーボードで入力することもできます。
 
 ![Customizable symbol palette](screenshots/palette.png)
-
 
 # Image to text conversion / 画像をテキストに変換
 
@@ -62,26 +56,35 @@ Thus, you have complete control over the conversion process to get the most suit
 
 ![Image to text conversion](screenshots/Image_to_text.png)
 
-
 # Dark & light interface theme / ダーク版とライト版のインターフェイス
 
-You can easily and quickly switch between dark and light user interfaces themes. 
+You can easily and quickly switch between dark and light user interfaces themes.
 this feature will show you how images will look on a dark background with light symbols or a light background with dark symbols.
 
 ボタン一つでインターフェイスのダーク版(暗い背景)と、ライト版(明るい背景)とを切り替えることができるので、作成した絵が明度の異なる背景でどう映るかを即座に確認できます。画面左上に並ぶボタンの一番右です。
 
 ![Dark & light interface theme](screenshots/light_dark_theme.png)
 
-
 # Built-in text editor / 内蔵テキストエディター
 
-The built-in text editor will allow you to work with the image in the same way as in a regular text editor. 
+The built-in text editor will allow you to work with the image in the same way as in a regular text editor.
 In addition this feature will allow you to quickly add data to the editor and copy it back to the clipboard.
 
 画面左上、右から三番目から開ける内蔵のテキスト・エディターで、普通のテキスト・エディターのように文字を手打ちすることもできます。
 他で作成したテキストの追加も、作成したテキストのコピーも簡単操作で一発です。
 
 ![Built-in text editor](screenshots/text_edit.png)
+
+# Shortcuts for ease of use
+
+The main tools now have shortcuts to make them easier to use.
+
+* Hand/Scroll: Alt+H OR Alt+1
+* Brush/Pencil: Alt+B OR Alt+2
+* Eraser: Ctrl+Alt+E OR Alt+3
+* Fill: Ctrl+Alt+F OR Alt+4
+* Pipette: Alt+P OR Alt+5
+* Selection: Alt+S OR Alt+6
 
 
 
