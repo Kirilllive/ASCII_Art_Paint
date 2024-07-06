@@ -35,6 +35,17 @@
     --bh:#efefff;
     --font:Arial;
 }
+*::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color:var(--cw);
+	display:none;
+}
+*::-webkit-scrollbar-thumb {
+	background: var(--cb);
+	border-radius:3px;
+	display:none;
+}
 hr{border-top:1px solid var(--cb);margin:4px 0px;}
 option{color:#000;}
 .cls-2 {stroke:#000;stroke-width: 8px;}
@@ -810,7 +821,7 @@ function get_selected(){
         if(selected[1]>selected[3]){y1=selected[3];y2=selected[1]}else{y1=selected[1];y2=selected[3];}
     }return se;
 }
-function save_art(c){
+async function save_art(c){
     var text="";
     tr=canvas.getElementsByTagName('tr');
     if(!get_selected()){x1=0;x2=tr[0].getElementsByTagName('td').length-1;y1=0;y2=tr.length;}else{y2++;}
@@ -820,10 +831,22 @@ function save_art(c){
         if(y<y2-1){text.trim();text+="\n";}
     }
     if(c){
-        var a=document.getElementById("get_file");
-        a.setAttribute("href","data:text/json;charset=utf-8,"+encodeURIComponent(text));
-        a.setAttribute("download","text_art.txt");
-        a.click();
+        if("showSaveFilePicker" in window&&window.self===window.top) {
+            const opt={
+                suggestedName:"text_art.txt",
+                id:'ASCIIart',
+                types:[{description:'Text Files',accept:{'text/plain':['.txt']}}],
+            };
+            const file = await window.showSaveFilePicker(opt);
+            const content = await file.createWritable();
+            await content.write(text);
+            await content.close();
+        } else {
+            var a=document.getElementById("get_file");
+            a.setAttribute("href","data:text/json;charset=utf-8,"+encodeURIComponent(text));
+            a.setAttribute("download","text_art.txt");
+            a.click();
+        }
     }else if(window_zone.style.display=="grid"){
         state_save();window_zone.getElementsByClassName('edittext')[0].value=text;
     }else{
