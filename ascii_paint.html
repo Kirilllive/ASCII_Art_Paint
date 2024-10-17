@@ -538,7 +538,7 @@ function menu_right(e){
 window.addEventListener('mousemove',function(e){if(tool==5){cursor_text.style.left=(e.clientX+16)+"px";cursor_text.style.top=(e.clientY+16)+"px";}})
 window.addEventListener('mousedown',function(e){if(e.button==0){if(tool==0||tool==3||tool==5){mouseclick=true;};if(contextmenushow){contextmenushow=false;context_menu.style.visibility='hidden';mouseclick=false;}} })
 window.addEventListener('mouseup',function(){mouseclick=false;cursor_text.style.display="none"})
-window.addEventListener('keypress',function(e){var n=String.fromCharCode(e.charCode);brush=n;active_brush.innerHTML=brush;})
+window.addEventListener('keypress',function(e){let n=String.fromCharCode(e.charCode);brush=n;active_brush.innerHTML=brush;})
 asciicanvas.addEventListener('mouseup',function(){if(tool!=2&&tool!=5){state_save()};})
 var startmove_x=null,startmove_y=null,scroll_x=null,scroll_y=null;
 viewport.addEventListener('mousedown',function(e){
