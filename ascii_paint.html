@@ -592,8 +592,8 @@ document.onkeyup = function () {
     var e = e || window.event; // for IE to cover IEs window event-object
     // Shortcut for Hand/Move tool
     if ((e.altKey && e.which == 104) || (e.altKey && e.which == 72) || (e.altKey && e.which == 49)) {
-        e.preventDefault()
-        select_tool(0)
+        e.preventDefault();
+        select_tool(0);
         return false;
     }
     // Shortcut for Brush tool
