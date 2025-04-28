@@ -16,8 +16,6 @@ ASCII Graphics 文字や記号を組み合わせて絵のようにしたテキ�
 
 > [Japanes translation and adaptation by Onigi ](https://twitter.com/onigi123)
 
-[![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/kirill_live)
-
 # Simple interface / 簡潔で覚えやすいインターフェイス
 
 The editor has basic functionality and an interface similar to most popular graphic editors for more convenient use.
@@ -85,7 +83,3 @@ The main tools now have shortcuts to make them easier to use.
 * Fill: Ctrl+Alt+F OR Alt+4
 * Pipette: Alt+P OR Alt+5
 * Selection: Alt+S OR Alt+6
-
-
-
-[![Patreon](http://odin-interactive.com/img/patron.svg)](https://www.patreon.com/kirill_live)
