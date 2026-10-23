@@ -79,3 +79,11 @@ The main tools now have shortcuts to make them easier to use.
 * Fill: Ctrl+Alt+F OR Alt+4
 * Pipette: Alt+P OR Alt+5
 * Selection: Alt+S OR Alt+6
+
+# Deploy your own copy / 自分のコピーをデプロイ
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=Kirilllive%2FASCII_Art_Paint)
+
+ASCII Art Paint is plain static files with no build step, so it can be served as-is. To customize it, fork this repository first and import your fork: the import serves the repository you choose and does not copy it into your GitHub account. The editor is at `/ascii_paint.html`.
+
+ASCII Art Paintはビルド不要の静的ファイルなので、そのまま配信できます。カスタマイズする場合は、まずこのリポジトリをフォークし、フォークしたリポジトリをインポートしてください（インポートはリポジトリをあなたのGitHubアカウントにコピーしません）。エディターは `/ascii_paint.html` で開けます。
